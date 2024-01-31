@@ -19,7 +19,7 @@ class FIFOCache(BaseCaching):
           get - method that retrieves a key/value pair from cache '''
 
     def __init__(self):
-        ''' Initialize class instance. '''
+        ''' Initialize class instance '''
         super().__init__()
         self.keys = []
 
